@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>assignment1</title>
+    <style>
+        .a{
+            background: url(resources/Banner\ Image.png);
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            background-repeat: no-repeat;
+            margin-left: 100px;
+            width: 1600px;
+            height: 1000px; 
+        }
+        #p1{
+            color: rgb(142, 149, 155);
+            font-family: 'Merriweather', serif;
+            font-size: 30px;
+            text-align: justify;
+            position: absolute;
+            top: 22%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        #p2{
+            top: 31%;
+            left: 50%;
+        }
+        #p3{
+            top: 42%;
+            left: 50%;
+        }
+        #p2, #p3{
+            color: rgb(142, 149, 155);
+            font-family: 'Merriweather', serif;
+            font-size: 60px;
+            text-align: justify;
+            font-weight: bold;
+            position: absolute;
+            transform: translate(-50%, -50%);
+        }
+        .b{
+            color: red;
+            margin-bottom: 20px;
+        }
+        #p4{
+            font-weight: 800;
+            font-size: 88px;
+            font-size: 90px;
+            text-align: justify;
+            position: absolute;
+            transform: translate(-50%, -50%);
+            top: 96%;
+            left: 50%;
+        }
+        #p5{
+            font-weight: 500;
+            font-size: 24px;
+            text-align: justify;
+            position: absolute;
+            transform: translate(-50%, -50%);
+            top: 121%;
+            left: 50%;
+        }
+        #p6{
+            color: black;
+            font-weight: 700;
+            font-size: 48px;
+            text-align: justify;
+            position: absolute;
+            transform: translate(-50%, -50%);
+            top: 125%;
+            left: 50%;
+        }
+        #p4, #p5, #p6{
+            font-family: 'Inter', sans-serif;
+        }
+        .img2{
+            text-align: center;
+            margin-bottom: 90px;
+            margin-top: 90px;
+            
+        }
+        .c{
+            background: url(resources/Group\ 100.png);
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            background-repeat: no-repeat;
+            margin-left: 100px;
+            width: 1600px;
+            height: 1000px;
+        }
+        #p7{
+            color: rgb(255, 255, 255);
+            font-family: 'Libre Baskerville', serif;
+            font-size: 60px;
+            text-align: flex-start;
+            font-weight: 900;
+            font-size: 64px;
+            transform: translate(-110%, -160%);
+            top: 0%;
+            left: 50%;
+        }
+        #p8{
+            color: rgb(255, 255, 255);
+            font-family: 'Libre Baskerville', serif;
+            font-size: 60px;
+            text-align: flex-start;
+            font-size: 18px;
+            transform: translate(-84%, -290px);
+            top: 0%;
+            left: 50%;
+        }
+        #btn{
+            background-color:rgba(240, 248, 255, 0);
+            border-color: rgba(240, 248, 255, 0);
+            color: rgb(255, 255, 255);
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 60px;
+            text-align: flex-start;
+            font-size: 18px;
+            transform: translate(-570%, -900%);
+            top: 0%;
+            left: 50%;
+        }
+        #btn2{
+            background-color: red;
+            color: aliceblue;
+            font-weight: bold;
+            font-size: 20px;
+            border-radius: 5px;
+            padding: 15px;
+        }
+        .red{
+            color:red;
+        }
+        .d{
+            background: linear-gradient(to bottom, #e7bebe, #fffffe);
+            color: black;
+            font-family: Arial, sans-serif;
+            font-weight: 600; 
+            font-size: 32px;
+            text-align: center;
+            padding-top: 130px;
+            padding-bottom: 130px;
+            padding-right: 90px;
+            border-radius: 10px;
+            transform: translate(8%, -86%);
+            width: 81%;
+            height: 80px;
+        }
+        .e{
+            display: flex;
+            justify-content: center; 
+            align-items: center; 
+            height: 200px; 
+        }
+        .e1{
+            margin-right: 100px;
+        }
+        .e2{
+            margin-right: 100px;
+        }
+        .e3{
+            margin-right: 100px;
+        }
+        .e1, .e2, .e3{
+            
+        }
+        .e2{
+            display: inline-block;
+            border: 15px solid red; 
+            border-radius: 50%; 
+            padding: 1px;
+            
+        }
+        .eii{
+            margin: 30px;
+        }
+        #p9{
+            color: red;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: medium;
+            font-size: 24px ;
+            
+        }
+        #p10{
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: bolder;
+            font-size: 48px;
+            margin-top: -20px;
+        }
+        #p11{
+            margin-top: -30px;
+            font-size: 18px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: rgba(70, 67, 67, 0.785);
+        }
+        #p12{
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            font-size: 48px;
+            color: red;
+        }
+        #p13{
+            font-size: small;
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: rgba(70, 67, 67, 0.785);
+            margin-top: -30px;
+        }
+       .holiday-sale{
+            font-family: 'Libre Baskerville', serif;
+            font-size: 72px;
+            font-weight: bold;
+            line-height: 1.2;
+            color: red;
+        }
+
+       .holiday{
+            color: black;
+        }
+        .f{
+            background-color: #ffffff;
+            color: #333;
+            margin-top: 270px;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            transform: translate(.3%, 8%);
+        }
+        #p14{
+            font-weight: 549;
+            font-size: 24px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        #p15{
+            text-align: center;
+            font-size: medium;
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: rgba(70, 67, 67, 0.785);
+        }
+        .rounded-red-div {
+            width: 1330px; 
+            height: 150px;
+            padding-left: 7px; 
+            
+        }
+        #p16{
+            font-family: Arial, Helvetica, sans-serif;
+            color: red;
+            font-size: 24px;
+        }
+        #p17{
+            font-family: 'Merriweather', serif;
+            color: black;
+            font-size: 48px;
+            font-weight: bold;
+        }
+        #p18{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 18px;
+            color: rgba(70, 67, 67, 0.785);
+        }
+        #p19{
+            font-family: 'Merriweather', serif;
+            font-weight: bolder;
+            font-size: 48px;
+        }
+        #p20{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 18px;
+            color: #848484;
+        }
+        .new{
+
+        }
+        .new1 {
+            margin-bottom: -781px;
+            margin-left: 898px;
+
+        }
+        .new2{
+            padding-left: 700px;
+            transform: translate(2%, 140%);
+        }
+        .new3{
+            background: none;
+            margin-bottom: -200px;
+            margin-left: -60px;
+
+        }
+        .g{
+            height: auto;
+            transform: translate(7%, 24%);
+        }
+        .mew{
+            align-items: flex-start;
+            
+        }
+        .mew1, .mew2{
+           background: #ffffff;
+           border: 10px solid #ffffff; 
+        }
+    
+        .h{
+            background: #e9d9d9;
+            transform: translate(9.3%, 70%);
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            height: 570px;
+            width: 1283px;
+        }
+        #subscribe{
+            background: red;
+            color: aliceblue;
+            border: #fffffe;
+            border-top-right-radius: 25px;
+            border-bottom-right-radius: 25px;
+            height: 53px;
+            width: 190px;
+            font-size: 20px;
+            
+        }
+        #user{
+            border: #fffffe;
+            color: rgba(7, 2, 17, 0.3);
+            border-bottom-left-radius: 25px;
+            border-top-left-radius: 25px;
+            width: 370px;
+            height: 53px;
+            font-size: 20px;
+            transform: translate(1.3%, 0%);
+               
+        }
+        .i{
+            height: 700px;
+            width: 101%;
+            background: rgba(7, 2, 17, 1);
+            color: aliceblue;
+            transform: translate(0.2px, 470px);
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 24px;
+        }
+        #p21{
+            transform: translate(110px, 180px);
+        }
+        .ii{
+            transform: translate(1150px, 20px);
+            display: flex;
+            align-items: center; 
+        }
+        .iv{
+            transform: translate(1150px, 20px);
+            display: flex;
+        }
+        #p24{
+            transform: translate(100px, 120px);
+        }
+        #p25{
+            transform: translate(1300px, 90px);
+        }
+        .iii{
+            transform: translate(90px, 80px);
+            border-top: 0.5px solid #d1d0d077; 
+            border-bottom: 0.5px solid #d1d0d077 ;
+            width: 85%;
+            height: 25%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <div class="a">
+            <p id="p1">Happy New Year</p>
+            <p id="p2">NEW YEAR PARTY</p>
+            <p id="p3">CELEBRATION</p>
+        </div>
+        <div class="b">
+            <p id="p4">65% OFF</p>
+            <p id="p5">OUR HOLIDAY DEALS ARE BETTER</p>
+            <P id="p6">ALL CATEGORIES</P>
+        </div>
+        <div class="img2">
+            <img src="resources/New Year Photo.png" alt="">
+        </div>
+    </section>
+    <section>
+        <div class="c">
+            <p id="p7"> Welcome to <br> midnight party</p>
+            <p id="p8">we understand the importance of making a statement with your style,<br> and our new collection is designed to do just that.<br> From chic casual wear to elegant evening dresses, we've curated <br>a selection that caters to every taste and occasion. </p>
+            <button id="btn">JOIN NOW</button>
+        </div>
+        <div class="d">
+            <p><span class="red">Place:</span> New Park Hotel</p>
+            <p><span class="red">Date:</span> 31 December Night 2023</p>
+            <p><span class="red">Time:</span> Evening 7.30 pm to 12.30 am</p>
+            <buttion id="btn2">JOIN NOW</buttion>
+        </div>
+        <div class="e">
+            <div class="e1">
+            <p id="p9">NEW BEST OFFER</p>
+            <p id="p10">Coming Soon</p>
+            <p id="p11">Explore our Colorful Combo Deals where you can mix and match pieces to create your unique style story.<br> Enjoy incredible savings when you bundle your favorite items together. </p>
+            </div>
+            <div class="e2">
+                <div class="eii"><img src="resources/Ellipse 1.png" alt=""></div>
+            </div>
+            <div class="e3">
+            <p id="p12">2024</p>
+            <p id="p13">Get your hands on the latest trends <br> from us delivered right to your doorstep.<br><br><br><img src="Group 96.png" alt=""></p>
+            </div>
+        </div>
+        </section>
+        <section>
+        <div class="f">
+            <p id="p14">WHAT IS FUNCTIONAL</p>
+            <div class="holiday-sale">
+                Holidays Sale <span class="holiday">50%</span>
+              </div>
+            <p id="p15">Don't miss out on this festive shopping celebration. Visit our Website now and unwrap the joy of 50% off<br> on all your favorite fashion finds. Make this holiday season extra special with the gift of style and savings.</p>
+                <div class="new">
+                    <div class="new1"><img src="resources/Rectangle 1.png" alt=""></div>
+                    <div class="new2"><img src="resources/Group 44.png" alt=""></div>
+                    <div class="new3"><img src="resources/Group 75.png" alt=""></div>
+                    <div class="rounded-red-div"><img src="resources/Rectangle 2.png" alt=""></div>
+                </div>
+        </div>
+        </section>
+        <section>
+        <div class="g">
+            <div class="mew">
+                <p id="p16">THE BEST GIFTS</p>
+                <p id="p17">Our Awesome Portfolio</p>
+                <p id="p18">Ready to take your brand to new heights? Look no further! Discover the power of excellence through our truly awesome portfolio,<br> meticulously crafted to showcase the brilliance, innovation, and success stories that define us. </p>
+            </div>
+            <div class="mew1">
+                <img src="resources/Rectangle 3.png" alt="" width="424px" height="450px">
+                <img src="resources/Rectangle 4.png" alt=""width="424px" height="450px">
+                <img src="resources/Rectangle 5.png" alt=""width="424px" height="450px">
+            </div>
+            <div class="mew2">
+                <img src="resources/Rectangle 5.png" alt=""width="424px" height="450px">
+                <img src="resources/Rectangle 7.png" alt=""width="424px" height="450px">
+                <img src="resources/Rectangle 8.png" alt=""width="424px" height="450px">
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="h">
+            <div class="arekta">
+            <img src="resources/Group 61.png" alt="">
+            <p id="p19">Subscribe Newsletter</p>
+            <p id="p20">Stay in the loop and be the first to experience the latest news, trends, and exciting<br> offers from us! Our newsletter is your VIP pass to a world of exclusive content, sneak peeks,<br> and member-only benefits. </p>
+            <div class="txt"><button id="user">user@gmail.com</button>
+                <button id="subscribe">Subscribe</button>
+            </div>   
+            </div>
+        </div>
+        </section>
+        <section>
+        <div class="i">
+            <p id="p21">44, Big Building Roosevelt Street<br><br>Beach Gardens Florida 33410</p>
+        <div class="ii">
+            <img src="resources/Call.png" alt="" width="50px" height="50px"> <p id="p22">+00 123 584 124</p>
+        </div>
+        <div class="iv">
+           <img src="resources/Website.png" alt="" width="50px" height="50px"> <p id="p23">www.website.com</p>
+        </div>
+        <div class="iii">
+            <img src="resources/Facebook.png" alt="">
+            <img src="resources/Instagram.png" alt="">
+            <img src="resources/Twitter.png" alt="">
+            <img src="resources/Linkedin.png" alt="">
+        </div>
+            <div><p id="p24">2017, All Rights Reserved.</p>
+            <p id="p25">Unsubscribe</p>
+        </div>
+    </section>
+</body>
+</html>
